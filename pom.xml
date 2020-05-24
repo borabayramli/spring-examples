@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.workshop</groupId>
+	<artifactId>spring-examples</artifactId>
+	<version>${revision}</version>
+	<name>spring-example</name>
+	<description>Demo project for Spring Boot</description>
+    <packaging>pom</packaging>
+
+	<properties>
+		<java.version>14</java.version>
+        <revision>1.0.0-SNAPSHOT</revision>
+        <maven.version>3.3.9</maven.version>
+
+        <!-- Dependency versions -->
+        <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+
+        <!-- Plugin versions -->
+		<lombok.version>1.18.12</lombok.version>
+	</properties>
+
+    <modules>
+        <module>animals-service</module>
+        <module>books-service</module>
+    </modules>
+
+</project>
